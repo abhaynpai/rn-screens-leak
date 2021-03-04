@@ -1,5 +1,5 @@
 {
-  "name": "LeakApp",
+  "name": "rn-screens-leak",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -7,7 +7,9 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "clean-android": "cd android && ./gradlew clean && cd ..",
+    "build-android-release": "npm run clean-android && cd android && ./gradlew assembleRelease && echo ./app/build/outputs/apk/release/"
   },
   "dependencies": {
     "@react-navigation/native": "^5.9.3",
