@@ -67,5 +67,19 @@ Click on memory graph then follow the procedure given below
 
 ## D. Observation
 
+Memory dump taken in Step 1 will have no leak at all. But as you enter a page and take a memory dump you can see a memory leak. Now again when you enter the 3rd page in the stack you can observe another leak in the memory dump.
 
+---
+## E. Solution
+
+I am working on it! :)
+
+If you already know a solution to this issue please let me know.
+
+---
+
+## F. A YouTube video showcasing this issue
+
+<a href="https://youtu.be/_xtXRnA-vEE" target="_blank"><img src="https://img.youtube.com/vi/_xtXRnA-vEE/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" /></a>
 
